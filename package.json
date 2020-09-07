@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming basic media to a web server",
+  "main": "./src/server.js",
+  "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenGoldfeder/streaming-media-assignment.git"
+  },
+  "author": "Benjamin Goldfeder",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/BenGoldfeder/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/BenGoldfeder/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
